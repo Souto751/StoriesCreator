@@ -31,6 +31,7 @@ npx serve dist-demo       # o cualquier servidor estático
 - `demo/sw.js` es un *service worker* que responde las rutas `/api/*` con los mismos formatos que el servidor y guarda todo en IndexedDB.
 - No hay login: la sesión de demo siempre está activa y **Salir** borra los datos.
 - Las imágenes marcadas como “Lista para el bot” pasan a “Publicada” a los pocos segundos, simulando al bot.
+- Trae solo las plantillas básicas (las 5 originales + `Dividido`); el resto del catálogo no se publica en la demo. Se elige en `DEMO_CATALOG` dentro de `demo/build.mjs`.
 - Incluye imágenes de ejemplo propias para el encabezado y el pie de página (`demo/assets/`).
 - `vercel.json` ya está configurado: importando el repo en Vercel se publica la demo sin ajustes.
 
