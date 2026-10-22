@@ -1,0 +1,2 @@
+Copia aca las imagenes (PNG, JPG o WebP) que se usan de encabezado.
+En el estudio, el boton "Encabezado al azar" elige una de estas y la pone arriba, detras de los textos.

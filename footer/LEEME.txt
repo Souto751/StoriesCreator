@@ -1,0 +1,3 @@
+Copiá aca los PNG (logos de juegos, sellos, etc.) que se usan para armar el pie de pagina.
+En el estudio, el boton "Pie de pagina al azar" elige 3 de estos archivos.
+Solo se leen archivos .png. Nombres con letras, numeros, espacios, guiones o puntos.

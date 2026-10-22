@@ -1,0 +1,18 @@
+# datos de la app (base, imágenes generadas y clave de cifrado): nunca subir
+data/
+.env
+.env.*
+
+node_modules/
+dist-demo/
+.vercel
+
+# imágenes propias de encabezado y pie: no se suben (pueden tener derechos de terceros)
+footer/*
+!footer/LEEME.txt
+header/*
+!header/LEEME.txt
+
+Thumbs.db
+desktop.ini
+.DS_Store

@@ -1,0 +1,16 @@
+{
+  "name": "stories-creator",
+  "version": "1.0.0",
+  "description": "Generador web de imágenes de publicidad para historias, con login seguro y API para bot.",
+  "private": true,
+  "repository": "github:Souto751/StoriesCreator",
+  "license": "MIT",
+  "engines": { "node": ">=22.13.0" },
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch --watch-path=server server/index.js",
+    "test": "node --test test/*.test.js",
+    "cli": "node server/cli.js",
+    "build:demo": "node demo/build.mjs"
+  }
+}
